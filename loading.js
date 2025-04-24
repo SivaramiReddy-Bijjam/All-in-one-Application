@@ -21,4 +21,4 @@ const intervalId = setInterval(function(){
         clearInterval(intervalId);
         window.location.href = "Home.html";
     }
-}, 2000);
+}, 1000);
