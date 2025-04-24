@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    padding:20px;
+}
+
+.Home-Page-Container{
+  max-width: 600px;
+  margin:5px auto;
+  background-color:rgb(21, 130, 85);
+  padding: 20px;
+  font-size: x-small;
+
+}
+.centertext{
+    text-align: center;
+}
+.whitetext{
+    color: white;
+}
+.font20px{
+  font-size: 20px;
+}
+.font60px{
+    font-size: 60px;
+
+}
+.opacityHalf{
+  opacity: 0.1;
+}
+.font30px{
+    font-size: smalle;
+     color: white;
+
+}
+/* h3{
+    color: white;
+    margin: 5px 5px;
+} */
+.primaryButton{
+
+    background-color: blue;
+    padding:10px 20px ;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin:10px 5px;
+    font-size: xx-small;
+    display: inline-block;
+    text-decoration: none;
+}
+.primaryButton:hover{
+    background-color: rgb(0, 255, 242);
+}
+li{
+    list-style-position: inside;
+}
+.margin10px{
+    margin:5px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naku gift vachindoy</title>
+    <style>
+        h1{
+            text-align: center;
+            color:blue;
+            image-resolution: 20px;
+        }
+        .lottery-container{
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+       .box{
+        width: 200px;
+        height: 50px;
+        background-color: rgb(43, 226, 205);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        margin: 5px;
+        border-radius: 5px;
+        }
+        .lottery-sheet-container{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .winningbox{
+            background-color:rgb(12, 73, 10);
+            
+            color:white;
+        }
+        .highlightedBox{
+            border: 5px dotted red;
+        }
+        #PickNumberButton{
+            background-color: green;
+            border: none;
+            padding: 10px 30px;
+            cursor: pointer;
+            color: white;
+            border-radius: 5px;
+        }
+        #PickNumberButton:hover{
+            background-color: rgba(7, 5, 63, 0.668);
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Lattery Game</h1>
+ <div class="lottery-container">
+    <div class="lottery-sheet-container" id="lotterysheetcontainer">
+    <!-- <div class="box highlightbox ">1.100cash</div> -->
+    <!-- <div class="box">2.ToyCar</div>
+    <div class="box">3.ChocalateBox</div>
+    <div class="box">4.500cash</div>
+    <div class="box">5.SmartphoneCovers</div>
+    <div class="box">6.Books</div>
+    <div class="box">7.Headphones</div>
+    <div class="box">8.10cash</div> -->
+</div>
+    <h2 id="result"></h2>
+    <button id="PickNumberButton">Pick a number</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
